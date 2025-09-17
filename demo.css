@@ -1,0 +1,106 @@
+/* === RESET & BASE STYLES === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: palevioletred;
+  color: #333;
+}
+
+/* === NAVIGATION BAR === */
+nav {
+  background-color: #004080;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffdd57;
+}
+
+/* === HEADER === */
+.header {
+  background-color: #e0efff;
+  text-align: center;
+  padding: 40px 20px 20px;
+}
+
+.header h1 {
+  color: #004080;
+  font-size: 2.2rem;
+}
+
+/* === MAIN DEMO SECTION === */
+.demo-section {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  display: grid;
+  gap: 20px;
+}
+
+.demo-section p {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* === DEMO BUTTON === */
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: #004080;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0066cc;
+}
+
+/* === FOOTER === */
+footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  font-size: 0.95rem;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .demo-section {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .btn {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

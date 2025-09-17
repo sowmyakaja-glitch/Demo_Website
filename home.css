@@ -1,0 +1,119 @@
+/* General styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: palevioletred;
+  color: #333;
+}
+
+/* Header titles */
+h1 {
+  text-align: center;
+  color: #004080;
+  margin: 20px 10px 10px;
+  background-color: #0066cc;
+}
+
+h3 {
+  text-align: center;
+  margin: 10px 0;
+  color: #0066cc;
+}
+
+nav a {
+  color:#0066cc;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Top banner */
+.top-banner {
+  background-color: #e0efff;
+  color: #004080;
+  padding: 15px;
+  text-align: center;
+  font-size: 1;
+}
+
+/* Navigation */
+.nav-bar {
+    background-color: #1976d2;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #e0efff;
+}
+
+.nav-bar img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.hamburger {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+ }
+
+.search-icon {
+    margin-left: auto;
+    font-size: 20px;
+    cursor: pointer;
+ }
+
+/* Main Title Section */
+.main-title {
+    background-color: #333;
+    color: yellow;
+    text-align: center;
+    padding: 40px 10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Training Section */
+.training-section {
+    background-color: #9c27b0;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.training-section h2 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.training-section p {
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.btn {
+    display: block;
+    margin: 10px auto;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #1976d2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 80%;
+    max-width: 300px;
+}
+
+.btn:hover {
+    background-color: #0d47a1;
+}
+
+.email-icon {
+    margin-right: 8px;
+}
